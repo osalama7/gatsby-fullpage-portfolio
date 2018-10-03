@@ -1,5 +1,5 @@
 import React from 'react';
-	import base from './base.css';
+import base from './base.css';
 import Container from '../components/container';
 import Navigation from '../components/navigation';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -51,21 +51,19 @@ class Template extends React.Component {
 			<MuiThemeProvider
 					theme={theme}
 					sheetsManager={this.pageContext.sheetsManager}>
-				<Helmet defaultTitle={`Osama Salama, Software engineer`} titleTemplate={`%s | Osama Salama`}>
-					<meta name="twitter:site" content="@osama_salama" />
+				<Helmet defaultTitle={`Petra Fölk, UX/UI Designer`} titleTemplate={`%s | Petra Fölk`}>
+					<meta name="twitter:site" content="" />
 					<meta name="og:type" content="website" />
-					<meta name="og:site_name" content="Osama Salama" />
-					<meta name="description" content="Osama Salama. Full-time Software engineer, data engineer, passionate tinkerer, supporter/learner. Don't hesitate to contact me" />
+					<meta name="og:site_name" content="" />
+					<meta name="description" content="" />
 					<link
 							rel="canonical"
-							href={`https://www.osamasalama.xyz/`}
+							href={`https://www.petrafolk.xyz/`}
 					/>
 					<html lang="en" />
 				</Helmet>
 				<Container className="index-container">
-					<AppBar
-							title="Title"
-					/>
+					
 					<Navigation />
 					{children()}
 				</Container>

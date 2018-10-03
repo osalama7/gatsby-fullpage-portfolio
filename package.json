@@ -1,9 +1,10 @@
 {
-  "name": "Petra Folk profile",
+  "name": "",
   "description": "Gatsby MaterialUI Contentful Graphql Netlify static profile",
   "version": "1.0.0",
   "author": "Osama Salama <osama.m7@gmail.com>",
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.0",
     "contentful-import": "^6.2.0",
     "gatsby-link": "^1.6.34",
     "gatsby-plugin-google-analytics": "^1.0.14",
@@ -16,6 +17,7 @@
     "gatsby-transformer-remark": "^1.7.32",
     "inquirer": "^5.1.0",
     "lodash": "^4.17.4",
+    "gatsby": "^1.9.202",
     "mdi-material-ui": "^5.1.0",
     "react-tap-event-plugin": "^3.0.2"
   },
@@ -26,7 +28,6 @@
     "chalk": "^2.3.1",
     "eslint": "^4.15.0",
     "eslint-plugin-react": "^7.5.1",
-    "gatsby": "^1.9.202",
     "gh-pages": "^1.1.0",
     "react-jss": "latest",
     "jss": "latest",
