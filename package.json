@@ -1,0 +1,64 @@
+{
+  "name": "Petra Folk profile",
+  "description": "Gatsby MaterialUI Contentful Graphql Netlify static profile",
+  "version": "1.0.0",
+  "author": "Osama Salama <osama.m7@gmail.com>",
+  "dependencies": {
+    "contentful-import": "^6.2.0",
+    "gatsby-link": "^1.6.34",
+    "gatsby-plugin-google-analytics": "^1.0.14",
+    "gatsby-plugin-jss": "^1.5.14",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-robots-txt": "^1.0.2",
+    "gatsby-plugin-sass": "^1.0.15",
+    "gatsby-plugin-sitemap": "^1.2.25",
+    "gatsby-source-contentful": "^1.3.38",
+    "gatsby-transformer-remark": "^1.7.32",
+    "inquirer": "^5.1.0",
+    "lodash": "^4.17.4",
+    "mdi-material-ui": "^5.1.0",
+    "react-tap-event-plugin": "^3.0.2"
+  },
+  "devDependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "babel-eslint": "^8.2.1",
+    "chalk": "^2.3.1",
+    "eslint": "^4.15.0",
+    "eslint-plugin-react": "^7.5.1",
+    "gatsby": "^1.9.202",
+    "gh-pages": "^1.1.0",
+    "react-jss": "latest",
+    "jss": "latest",
+    "material-ui": "1.0.0-beta.47",
+    "prettier": "^1.10.2",
+    "prop-types": "latest",
+    "react": "^16.3.2",
+    "react-dom": "latest"
+  },
+  "homepage": "https://github.com/contentful-userland/gatsby-contentful-starter#readme",
+  "keywords": [
+    "gatsby",
+    "contentful",
+    "graphql",
+    "netlify",
+    "material-ui"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osalama7/osamasalama.git"
+  },
+  "scripts": {
+    "heroku-postbuild": "gatsby build",
+    "start": "serve public/",
+    "dev": "gatsby develop",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md' 'bin/*.js'",
+    "build": "gatsby build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix *.js bin/*.js"
+  }
+}
