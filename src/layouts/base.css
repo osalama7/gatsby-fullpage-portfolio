@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "font-awesome";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+html {
+  height: 100%;
+  background-color: #fffefd;
+}
+body {
+  margin: 0;
+  padding: 0;
+  /*background-image: url("//images.ctfassets.net/w3b3hu5yk7y7/UZZIgeeIUe200se0c6qao/a78b3e24b59e56fe2905444c365488c0/Profile_Background.png");*/
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2em;
+  font-weight: normal;
+}
+
+a {
+  color: currentColor;
+}
+
+.wrapper {
+  width: calc(100% - 10em);
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+/**
+ * article grid
+ */
+.article-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  .article-list > li {
+    flex: 1 1 calc(33.333% - 2em);
+    max-width: calc(33.3333% - 2em);
+  }
+
+/**
+ *
+ */
+.section-headline {
+  padding: 1em 0;
+  margin: 0 0 1em;
+  border-bottom: 1px solid #ddd;
+}
+
+/**
+ *
+ */
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .list-inline li {
+    display: inline-block;
+  }
